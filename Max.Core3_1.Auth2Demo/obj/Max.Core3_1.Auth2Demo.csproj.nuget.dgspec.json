@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\BMax\\Eleven\\OAuth\\Max.Core3_1.OAuth\\Max.Core3_1.Auth2Demo\\Max.Core3_1.Auth2Demo.csproj": {}
+  },
+  "projects": {
+    "D:\\BMax\\Eleven\\OAuth\\Max.Core3_1.OAuth\\Max.Core3_1.Auth2Demo\\Max.Core3_1.Auth2Demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BMax\\Eleven\\OAuth\\Max.Core3_1.OAuth\\Max.Core3_1.Auth2Demo\\Max.Core3_1.Auth2Demo.csproj",
+        "projectName": "Max.Core3_1.Auth2Demo",
+        "projectPath": "D:\\BMax\\Eleven\\OAuth\\Max.Core3_1.OAuth\\Max.Core3_1.Auth2Demo\\Max.Core3_1.Auth2Demo.csproj",
+        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
+        "outputPath": "D:\\BMax\\Eleven\\OAuth\\Max.Core3_1.OAuth\\Max.Core3_1.Auth2Demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Atom.Base64Url": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
